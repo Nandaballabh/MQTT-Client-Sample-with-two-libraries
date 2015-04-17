@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="LQR-cv-8VG">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="LQR-cv-8VG">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
@@ -132,7 +132,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jK7-GB-nj9">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="436"/>
+                                <rect key="frame" x="10" y="0.0" width="300" height="436"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -159,9 +159,9 @@
                             <constraint firstItem="IAz-XH-Z0R" firstAttribute="top" secondItem="DBu-Tk-Z58" secondAttribute="bottom" id="2QM-6b-K8k"/>
                             <constraint firstItem="jK7-GB-nj9" firstAttribute="top" secondItem="nf5-Ca-x2O" secondAttribute="bottom" constant="-64" id="DQG-T4-fBY"/>
                             <constraint firstItem="DBu-Tk-Z58" firstAttribute="top" secondItem="jK7-GB-nj9" secondAttribute="bottom" id="Dt5-le-pGp"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="jK7-GB-nj9" secondAttribute="trailing" constant="-16" id="EYF-Kh-cSb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jK7-GB-nj9" secondAttribute="trailing" constant="-6" id="EYF-Kh-cSb"/>
                             <constraint firstItem="DBu-Tk-Z58" firstAttribute="leading" secondItem="haG-ap-f5a" secondAttribute="leadingMargin" constant="-16" id="IuN-oi-smb"/>
-                            <constraint firstItem="jK7-GB-nj9" firstAttribute="leading" secondItem="haG-ap-f5a" secondAttribute="leadingMargin" constant="-16" id="Y9A-LR-Ie7"/>
+                            <constraint firstItem="jK7-GB-nj9" firstAttribute="leading" secondItem="haG-ap-f5a" secondAttribute="leadingMargin" constant="-6" id="Y9A-LR-Ie7"/>
                             <constraint firstAttribute="trailingMargin" secondItem="DBu-Tk-Z58" secondAttribute="trailing" constant="-16" id="kr2-2d-Dwx"/>
                         </constraints>
                     </view>
